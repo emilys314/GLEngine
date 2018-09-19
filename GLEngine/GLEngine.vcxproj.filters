@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{20d89f87-879d-48f3-a0ba-04ab50af299e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loader">
+      <UniqueIdentifier>{47c0b9e5-13df-4bc6-aac7-3793dcb5d060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loader">
+      <UniqueIdentifier>{f024daf5-6dc8-4e07-8767-25c4197f7ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{fb3f7e44-392b-44b5-93ee-5a39d5b80be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{060aa503-fd11-4b80-94ea-23c366a24718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{d96a4d97-b442-412b-864d-050dcaf10548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\ComponentManagers">
+      <UniqueIdentifier>{f5242f23-7702-4ef5-98d9-f48c357b1dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\ComponentManagers">
+      <UniqueIdentifier>{c6332b41-5a0d-4a0c-bd3d-a55f56e9c55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Systems">
+      <UniqueIdentifier>{ce3a4ed7-7f5f-4a11-8e7a-69aa9e56420d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Systems">
+      <UniqueIdentifier>{a33929cb-1efa-499f-ad17-96217820836d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{9b5696b9-da5d-4906-9468-4c8d1b1cbc68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{d3f69bf5-a576-4444-b1f5-ba14d4e74eb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="RawModel.cpp">
+      <Filter>Source Files\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedModel.cpp">
+      <Filter>Source Files\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="NameCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintNamesSystem.cpp">
+      <Filter>Source Files\Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Source Files\Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="OrientationCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMountCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="CamMountInfoSystem.cpp">
+      <Filter>Source Files\Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="LightCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GridMovementSystem.cpp">
+      <Filter>Source Files\Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCamableCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCamSystem.cpp">
+      <Filter>Source Files\Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllableCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCollisionCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="PickableCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="PickableSystem.cpp">
+      <Filter>Source Files\Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="AABoundingBoxCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamingState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="HoverCamCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="HoverCamSystem.cpp">
+      <Filter>Source Files\Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="StaminaCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="TileCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnBasedSystem.cpp">
+      <Filter>Source Files\Entity\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPositionCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleCompManager.cpp">
+      <Filter>Source Files\Entity\ComponentManagers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DisplayManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Header Files\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedModel.h">
+      <Filter>Header Files\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="RawModel.h">
+      <Filter>Header Files\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="NameCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintNamesSystem.h">
+      <Filter>Header Files\Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Header Files\Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientationCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMountCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="CamMountInfoSystem.h">
+      <Filter>Header Files\Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="LightCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridMovementSystem.h">
+      <Filter>Header Files\Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCamableCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCamSystem.h">
+      <Filter>Header Files\Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllableCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCollisionCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="PickableCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="PickableSystem.h">
+      <Filter>Header Files\Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="AABoundingBoxCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GamingState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HoverCamCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="HoverCamSystem.h">
+      <Filter>Header Files\Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="StaminaCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="TileCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnBasedSystem.h">
+      <Filter>Header Files\Entity\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPositionCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleCompManager.h">
+      <Filter>Header Files\Entity\ComponentManagers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Simple.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="Simple.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="GuiShader.fs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="GuiShader.vs">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
